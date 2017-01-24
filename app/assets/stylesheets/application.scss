@@ -21,10 +21,14 @@
  @import "font-awesome";
 
 .jumbotron {
-  background-image:url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
+  background-image:url('https://ww2.sinaimg.cn/large/006tKfTcgy1fc0oozevdqj30bs0gowoj.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom:  110px;
+  background-size: contain ;
+  padding-bottom:  200px;
+  background-position:center;
+  margin-top: 200px；
+
+
 }
 
 .titile {
@@ -32,12 +36,13 @@
   text-align: center;
   margin-top: 200px;
   margin-bottom: 80px;
+  color: red;
 }
 
 .slogan {
   margin-top: 10px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
   color: white;
   top: 12px;
 }
